@@ -1,0 +1,70 @@
+.box1 {
+  border: 1px solid black;
+  height: 200px;
+  width: 170px;
+  background-image: linear-gradient(red, blue);
+  background-image: linear-gradient(to right, red, blue);
+  box-shadow: 10px 10px 10px green;
+  position: sticky;
+}
+/* to right, to bottom right, to top right, same with left, try 3 colors, try rgb */
+
+.box2 {
+  margin: 5%;
+  border: 1px solid black;
+  height: 100px;
+  width: 200px;
+  transform: perspective(50px) translateZ(-20px) rotateX(30deg) rotateY(15deg);
+  background-image: radial-gradient(circle, black, red, blue);
+  background-image: radial-gradient(black 10%, red 30%, blue 60%);
+}
+
+h1 {
+  text-shadow: -3px -3px 3px blueviolet, 5px 5px 5px red;
+  /* horiz len, vertical len, blur, color */
+}
+
+.box3 {
+  margin: 5%;
+  background-color: aquamarine;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px red, 3px 3px 3px blueviolet;
+  height: 200px;
+  width: 170px;
+}
+
+.box4 {
+  margin: 5%;
+  height: 100px;
+  width: 500x;
+  border: 1px solid black;
+  overflow: scroll;
+  font-size: larger;
+}
+
+.box5 {
+  margin: 5%;
+  min-height: 50px;
+  width: 300px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+/* use mdn overflow */
+
+.box6 {
+  border: 1px solid black;
+  top: 20px;
+  position: sticky;
+  transform: translate(500px 50px);
+  background-color: brown;
+}
+
+.transformtranslate {
+  background-color: aquamarine;
+  transform: translate(100px, 200px);
+  /* translating in x, y and z axes, try out tranformx and transformy */
+  transform: rotate(45deg);
+  transform: rotate(-45deg);
+  /* try out transform:scale(2,10), transform:skew(xdeg) */
+}
+/* hw matrix in css */

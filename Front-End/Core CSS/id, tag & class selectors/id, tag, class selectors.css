@@ -1,0 +1,72 @@
+/* element/tag CSS editing */
+p {
+  text-align: center;
+  font-size: larger;
+  color: blueviolet;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+h2 {
+  text-align: center;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: bisque;
+  color: brown;
+}
+
+table,
+td,
+th,
+tr {
+  border: 5px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* id selector */
+#id1 {
+  background-color: antiquewhite;
+  color: crimson;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+#id2 {
+  background-color: aquamarine;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: blueviolet;
+}
+
+#id3 {
+  background-color: cornflowerblue;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: chartreuse;
+}
+
+/* class selector */
+.cl1 {
+  background-color: antiquewhite;
+  color: crimson;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.cl2 {
+  background-color: cornflowerblue;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: chartreuse;
+}
+
+.cl3 {
+  background-color: aquamarine;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: blueviolet;
+}

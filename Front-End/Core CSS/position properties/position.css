@@ -1,0 +1,60 @@
+.wrapper {
+  height: 150vh;
+  width: 200vh;
+  margin: 50px 0 0 0;
+  background-color: antiquewhite;
+  /* position: relative; */
+}
+
+div {
+  display: inline-block;
+}
+
+.box1 {
+  height: 200px;
+  width: 200px;
+  background-color: burlywood;
+  border: 1px solid black;
+  position: static;
+}
+
+.box2 {
+  height: 200px;
+  width: 200px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  position: relative;
+  top: 5%;
+  right: 10%;
+}
+
+.box3 {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  position: fixed;
+  top: 50px;
+  left: 200px;
+}
+
+.box4 {
+  height: 200px;
+  width: 200px;
+  background-color: azure;
+  border: 1px solid black;
+  position: absolute;
+  /* go checkout the comment box in wrapper */
+  top: 5%;
+  right: 10%;
+}
+
+.box5 {
+  height: 200px;
+  width: 200px;
+  background-color: violet;
+  border: 1px solid black;
+  position: sticky;
+  top: 0px;
+  left: 40%;
+}

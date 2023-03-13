@@ -1,0 +1,30 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.container {
+  background-color: burlywood;
+  border: 1px solid black;
+  height: 370px;
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 25px 300px 25px;
+  gap: 10px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  border: 2px solid black;
+  background-color: darkgray;
+}
+
+.box1,
+.box5 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 1200px;
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.container1 {
+  margin: 0 0 -5% 0;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+
+.title {
+  position: relative;
+  left: 40%;
+  align-self: center;
+  font-size: 2.5rem;
+}
+
+.sub {
+  position: relative;
+  right: 12%;
+  align-self: center;
+}
+
+.search_icon {
+  align-self: center;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 70%;
+}
+
+.container2 {
+  height: 100%;
+  width: 100%;
+}
+
+.container3 {
+  height: 90%;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "c1r1 c2r1"
+    "c1r2 c2r2"
+    "c1r3 c2r3"
+    "c1r4 c2r4";
+}
+
+#box {
+  border: 1px solid black;
+  height: 85%;
+  width: 90%;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.box-1 {
+  grid-area: c1r1;
+  align-self: center;
+  justify-self: center;
+}
+
+.box-2 {
+  grid-area: c1r2;
+  align-self: center;
+  justify-self: center;
+}
+
+.box-3 {
+  grid-area: c1r3;
+  align-self: center;
+  justify-self: center;
+}
+
+.box-4 {
+  grid-area: c1r4;
+  align-self: center;
+  justify-self: center;
+}
+
+.box-5 {
+  grid-area: c2r1;
+  align-self: center;
+  justify-self: center;
+}
+
+.box-6 {
+  grid-area: c2r2;
+  align-self: center;
+  justify-self: center;
+}
+
+.box-7 {
+  grid-area: c2r3;
+  align-self: center;
+  justify-self: center;
+}
+
+.box-8 {
+  grid-area: c2r4;
+  align-self: center;
+  justify-self: center;
+}
+
+#a1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blue;
+  margin: 15px 0 0 20px;
+  font-size: larger;
+}
+
+#a2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: green;
+  margin: 15px 0 0 20px;
+  font-size: larger;
+}
+
+#b1,
+#b2 {
+  margin: 7px 0 0 20px;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#c1,
+#c2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0 0 0 20px;
+}
+
+#d1,
+#d2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 10px 0 0 20px;
+}
+
+#e1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 37px 0 0 20px;
+  position: relative;
+  top: 25%;
+}
+
+#e2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 20px 0 0 20px;
+  position: relative;
+  top: 18%;
+}

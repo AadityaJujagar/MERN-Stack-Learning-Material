@@ -1,0 +1,168 @@
+:root {
+  --rootcolor: #ff1122;
+}
+/* global scope variable */
+
+.container1 {
+  border: 2px solid var(--rootcolor);
+  height: 300px;
+  width: 300px;
+  --rgb-color: rgb(12, 100, 130);
+  background-color: var(--rgb-color);
+  /* local scope variable */
+}
+
+/* 
+local var are limited to container
+only where it is defined
+*/
+#box {
+  border: 2px solid black;
+  --dark-red: #981a2c;
+  background-color: var(--dark-red);
+}
+
+/* transition starts here */
+.container2 {
+  height: 500px;
+  width: 500px;
+  background-color: antiquewhite;
+  border: 2px solid gray;
+  display: flex;
+}
+
+.box1 {
+  border: 2px solid green;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  background-color: #ff1122;
+}
+
+.box1:hover {
+  background-color: #e1bfc4;
+  transition: 3s;
+}
+
+.box2 {
+  border: 2px solid green;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  /* transform: a property to be transformed */
+  /* 1s: for how long u want the effect to exist */
+  /* ease: what transition property to use for the effect */
+  /* 3s: time taken to start the effect */
+  transition: transform 8s ease 2s;
+}
+
+.box2:hover {
+  transform: scale(2.5);
+}
+
+.box3 {
+  border: 2px solid green;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  background-color: #981a2c;
+  transition: background-color 5s ease 1s;
+}
+
+.box3:hover {
+  background-color: aliceblue;
+}
+
+.box4 {
+  border: 2px solid green;
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  transition: all 5s ease 1s;
+}
+
+.box4:hover {
+  rotate: 90deg;
+  background-color: aqua;
+  transform: scale(2.5);
+}
+
+/* 
+the alternative methods and shorthand
+props for transition effects
+*/
+.container3 {
+  height: 500px;
+  width: 500px;
+  background-color: antiquewhite;
+  border: 2px solid gray;
+  display: flex;
+  margin: 20px;
+}
+
+#box1 {
+  border: 2px solid green;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  background-color: gray;
+  transition: transform 5s ease-in;
+  /* ease-in: start slow, end move fast */
+  transition: transform 3s ease-out;
+  /* ease-out: start fast, end move slow */
+  transition: transform 3s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+#box1:hover {
+  transform: translateX(500px);
+}
+
+#box2 {
+  border: 2px solid green;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  background-color: gray;
+  /* here is an alternative */
+  transition-property: transform background-color;
+  transition-duration: 5s;
+  transition-timing-function: cubic-bezier(0.165, -0.84, 0.44, 1);
+  transition-delay: 2s;
+}
+
+#box2:hover {
+  background-color: #e11332;
+  transform: translateX(500px);
+}
+
+#box3 {
+  border: 2px solid green;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  background-color: gray;
+  transition: transform background-color 5s ease 2s;
+}
+
+#box3:hover {
+  transform: translateX(500px) rotate(90deg);
+  background-color: black;
+}
+
+#box4 {
+  border: 2px solid green;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  background-color: gray;
+  transition-property: transform background-color;
+  transition-duration: 5s;
+  transition-timing-function: ease;
+  transition-delay: 2s;
+}
+
+#box4:hover {
+  transform: translateX(500px) scale(2) rotate(720deg);
+  background-color: black;
+}

@@ -1,0 +1,47 @@
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+
+.container {
+  background-color: brown;
+  height: 500px;
+  border: 3px solid black;
+  display: grid; /* creates spacing/gutter */
+
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* flexible grid */
+  grid-template-rows: 90px 90px 90px 90px;
+  /* gtc/gtr: 100px 100px 100px */
+  /* gtc/gtr: repeat(3, 1fr) */
+  /* gtc/gtr: 100px repeat(3, 1fr) */
+  /* gtc/gtr: 100px repeat(2, 1fr) 100px */
+  /* make sure to make rows flexible to see the overflow effect */
+
+  gap: 20px;
+}
+
+.box {
+  background-color: aquamarine;
+  border: 2px solid black;
+  height: 80px;
+  /* width: 80px; */
+}
+
+.box1 {
+  height: 80px;
+  border: 2px solid black;
+  background-color: aquamarine;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.box4 {
+  /* height: 80px; */
+  border: 2px solid black;
+  background-color: aquamarine;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}

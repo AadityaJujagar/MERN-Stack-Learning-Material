@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 1200px;
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.container1 {
+  margin: 0 0 -5% 0;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+
+.title {
+  position: relative;
+  left: 40%;
+  align-self: center;
+  font-size: 2.5rem;
+}
+
+.sub {
+  position: relative;
+  right: 12%;
+  align-self: center;
+}
+
+.search_icon {
+  align-self: center;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 70%;
+}

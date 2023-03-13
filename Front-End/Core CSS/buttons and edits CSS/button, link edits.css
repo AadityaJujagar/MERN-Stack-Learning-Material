@@ -1,0 +1,54 @@
+/* button effect and then its hovering effect */
+button {
+  color: rgb(187, 43, 30);
+  height: 30px;
+  width: 100px;
+  border: 4px solid gold;
+  background-color: bisque;
+}
+
+button:hover {
+  color: blueviolet;
+  height: 35px;
+  width: 110px;
+  border: 5px solid blue;
+  background-color: greenyellow;
+}
+
+/* with id or class */
+#button {
+  color: rgb(57, 31, 141);
+  height: 30px;
+  width: 100px;
+  border: 4px solid rgb(0, 251, 255);
+  background-color: rgb(229, 176, 246);
+}
+
+#button:hover {
+  color: blueviolet;
+  height: 35px;
+  width: 110px;
+  border: 5px solid blue;
+  background-color: greenyellow;
+}
+
+/* link hovering */
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: violet;
+}
+
+a:hover {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: aqua;
+}
+
+.class {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.class:hover {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: aqua;
+}
