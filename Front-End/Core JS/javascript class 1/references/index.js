@@ -54,24 +54,17 @@ if (1 || 0) {
 
 // operating with non-binaries, opposite of cpp
 // consider f as 0 and t as 1
-false || true; // true
-false && true; // false
-true || "bvifvn"; // true
-true && "bvifvn"; // "bvifvn"
-false || "bvifvn"; // "bvifvn"
-false && "bvifvn"; // false
-false || "fvjk" || 1; // "fvjk"
-false && "fvjk" && 1; // false
-true || "fvjk" || 1; // true
-true && "fvjk" && 1; // 1
+console.log(false || true); // true // true
+console.log(false && true); // false // false
+console.log(true || "bvifvn"); // true // true
+console.log(true && "bvifvn"); // "bvifvn" // "bvifvn"
+console.log(false || "bvifvn"); // "bvifvn" // "bvifvn"
+console.log(false && "bvifvn"); // false // false
+console.log(false || "fvjk" || 1); // "fvjk" // "fvjk"
+console.log(false && "fvjk" && 1); // false // false
+console.log(true || "fvjk" || 1); // true // true
+console.log(true && "fvjk" && 1); // 1 // error
 
-// cout << (false || true) << endl;       // true
-// cout << (false && true) << endl;       // false
-// cout << (true || "bvifvn") << endl;    // true
-// cout << (true && "bvifvn") << endl;    // "bvifvn"
-// cout << (false || "bvifvn") << endl;   // "bvifvn"
-// cout << (false && "bvifvn") << endl;   // 0
-// cout << (false || "fvjk" || 1) << endl; // 1
-// cout << (false && "fvjk" && 1) << endl; // 0
-// cout << (true || "fvjk" || 1) << endl;  // 1
-// cout << (true && "fvjk" && 1) << endl;  // 1
+// bitwise operators, use of truth tables
+console.log(3 | 5); // OR operator
+console.log(5 & 4); // AND operator
