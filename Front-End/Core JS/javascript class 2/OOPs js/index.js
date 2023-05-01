@@ -43,3 +43,17 @@ let callObjFuncOut = objFuncOut("o1 input", "o2 input");
 console.log(callObjFuncOut.obj1);
 console.log(callObjFuncOut.obj2);
 console.log(callObjFuncOut.objFuncIn());
+
+// constructor function: Pascal Notation used
+// e.g. : NumberOfStudents
+function Rectangle(w, h) {
+  this.width = w;
+  this.height = h;
+  this.Rect = function () {
+    console.log("insider function Rect executed");
+  };
+}
+let CallRectangle1 = new Rectangle("w1", "h1");
+let CallRectangle2 = new Rectangle("w2", "h2");
+console.log(CallRectangle1.width);
+console.log(CallRectangle2.Rect());
