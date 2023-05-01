@@ -1,4 +1,4 @@
-// can also be edited while being offline
+// can also be edited while being offline, >>>node index.js
 // either in terminal or in port console
 
 // .log() is used of printing the string inside

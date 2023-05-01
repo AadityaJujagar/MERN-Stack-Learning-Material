@@ -48,8 +48,8 @@ for (let i = 1; i <= number1; i++) {
 }
 
 // while loop
-let j = 1,
-  number2 = prompt("table of:");
+let j = 1;
+number2 = prompt("table of:");
 while (j <= 10) {
   console.log(number2 * j + "\n");
   j++;
