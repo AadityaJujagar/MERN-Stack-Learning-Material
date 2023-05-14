@@ -38,3 +38,21 @@ i
             ${whatAreYou}
 `;
 console.log(sentence3);
+
+// to be done in console port
+let date1 = new Date();
+console.log(date1);
+
+let date2 = new Date("February 20 2002 12:00");
+console.log(date2);
+
+let date3 = new Date(2002, 1, 20, 12, 0, 0);
+console.log(date3);
+
+date3.setFullYear(2000);
+date3.setDate(18);
+date3.setMonth(8);
+
+console.log(date2.getDate());
+console.log(date2.getFullYear());
+console.log(date2.getMonth() + 1);
