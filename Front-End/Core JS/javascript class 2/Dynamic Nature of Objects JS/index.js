@@ -28,10 +28,12 @@ let CallRectangle3 = new Rectangle(
   "w3",
   "h3",
   // syntax has to be here
-  `this.width = w;
-this.height = h;
-this.Rect = function () {
-  console.log("insider function Rect executed");
-};`
+  `
+  this.width = w;
+  this.height = h;
+  this.Rect = function () {
+    console.log("insider function Rect executed");
+  };
+  `
 );
 console.log(CallRectangle3.width);

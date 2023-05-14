@@ -1,5 +1,5 @@
 // primitive type
-// premitives are copied by thier values
+// premitives are copied by their values
 let a = 5;
 let b = a;
 a++;
@@ -8,9 +8,9 @@ console.log(b);
 
 // reference type
 // references are copied by their values
-let c = { value: 3 };
+let c = { value: 4 };
 let d = c;
-c.value++;
+c.value--;
 console.log(c.value);
 console.log(d.value);
 

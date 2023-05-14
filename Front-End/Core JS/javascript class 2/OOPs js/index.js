@@ -44,7 +44,7 @@ console.log(callObjFuncOut.obj1);
 console.log(callObjFuncOut.obj2);
 console.log(callObjFuncOut.objFuncIn());
 
-// constructor function: Pascal Notation used
+// 2) constructor function: Pascal Notation used
 // e.g. : NumberOfStudents
 function Rectangle(w, h) {
   this.width = w;

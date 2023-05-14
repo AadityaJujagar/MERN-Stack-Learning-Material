@@ -42,6 +42,7 @@ console.log(3 != 487); // negation
 console.log("\n");
 // ternary operators
 let age = 21;
+// result = 'if this' (?)'do this' else(:)'do this'
 let stat = age > 18 ? "can vote" : "cant vote";
 console.log(stat);
 

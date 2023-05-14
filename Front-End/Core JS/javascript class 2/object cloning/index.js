@@ -1,4 +1,4 @@
-// JavaScript posseses the automated garbage value
+// JavaScript posseses the automated garbage value processing
 // collecting management system called as Garbase Collector
 
 // object cloaning
