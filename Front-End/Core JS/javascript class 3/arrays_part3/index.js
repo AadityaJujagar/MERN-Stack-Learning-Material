@@ -18,8 +18,7 @@ let itemsVal1 = filtered1.map(function (val1) {
   return obj1;
 });
 let itemsVal2 = filtered2.map(function (val2) {
-  let obj2 = { negativeVal: val2 };
-  return obj2;
+  return { negativeVal: val2 };
 });
 
 console.log(itemsVal1, itemsVal2);

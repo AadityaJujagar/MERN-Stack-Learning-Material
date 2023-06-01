@@ -13,7 +13,7 @@ let rectangle2 = {};
 for (let key in rectangle1) {
   rectangle2[key] = rectangle1[key];
 }
-// pringing the clone
+// printing the clone
 for (let key in rectangle2) {
   console.log(key, rectangle2[key]);
 }

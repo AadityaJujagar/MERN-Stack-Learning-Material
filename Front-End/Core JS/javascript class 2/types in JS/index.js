@@ -7,7 +7,7 @@ console.log(a);
 console.log(b);
 
 // reference type
-// references are copied by their values
+// references are copied by their addresses
 let c = { value: 4 };
 let d = c;
 c.value--;

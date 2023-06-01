@@ -17,7 +17,7 @@ console.log(numbers[6]);
 console.log(numbers.length);
 console.log(numbers.indexOf("a"));
 
-// if an array exist in an array
+// if element exists in array
 console.log(numbers.includes(4));
 console.log(numbers.indexOf("a", 4));
 
@@ -54,7 +54,7 @@ allTypes.splice({ num: 2 }, 1);
 console.log(allTypes);
 
 // emptying an array
-// false method which copied addresses: nums1 = [];
+// false method which copies addresses: nums1 = [];
 nums1 = [1, 3, 5, 7, 9, 11];
 console.log(nums1);
 nums2 = nums1;

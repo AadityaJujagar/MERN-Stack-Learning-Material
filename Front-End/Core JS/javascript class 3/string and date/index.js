@@ -32,10 +32,9 @@ console.log(sentence2.split(" "));
 // placeholder
 let whatAreYou = "Backend Specialist";
 let sentence3 = `
-i
-    am
-        a
-            ${whatAreYou}
+i'm
+    a
+        ${whatAreYou}
 `;
 console.log(sentence3);
 
@@ -53,6 +52,7 @@ date3.setFullYear(2000);
 date3.setDate(18);
 date3.setMonth(8);
 
+console.log(date3);
 console.log(date2.getDate());
 console.log(date2.getFullYear());
 console.log(date2.getMonth() + 1);

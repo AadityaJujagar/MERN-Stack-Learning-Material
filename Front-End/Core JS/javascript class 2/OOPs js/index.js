@@ -29,19 +29,19 @@ console.log(callFunc.width); // calling a func and object
 console.log(callFunc.drawRect()); // calling a func and method
 
 // custom input in an object via arguments
-function objFuncOut(o1, o2) {
+function objFuncOut(w, h) {
   let obj = {
-    obj1: o1,
-    obj2: o2,
+    wid: w,
+    hei: h,
     objFuncIn() {
       console.log("objFuncIn called");
     },
   };
   return obj;
 }
-let callObjFuncOut = objFuncOut("o1 input", "o2 input");
-console.log(callObjFuncOut.obj1);
-console.log(callObjFuncOut.obj2);
+let callObjFuncOut = objFuncOut("width input", "height input");
+console.log(callObjFuncOut.wid);
+console.log(callObjFuncOut.hei);
 console.log(callObjFuncOut.objFuncIn());
 
 // 2) constructor function: Pascal Notation used

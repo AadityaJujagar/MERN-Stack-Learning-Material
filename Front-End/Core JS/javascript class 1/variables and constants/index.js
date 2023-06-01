@@ -13,6 +13,7 @@ if (1) {
   console.log(a);
   console.log(b);
 }
+// let is changable in/out of code block
 console.log(a);
 console.log(b);
 
