@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* tag selector */
+      /* internal css with 2nd most priority */
+      p {
+        color: aqua;
+      }
+
+      /* class selector */
+      .lorem {
+        color: blue;
+      }
+
+      /* id selector */
+      #theid {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- inline css with highest priority -->
+    <p style="text-align: center; color: blueviolet">
+      this is the para to show the priorities betweern the different selectors
+    </p>
+
+    <!-- 
+    1. tag selector
+    2. class
+    3. id
+    4. inline css
+    -->
+
+    <!-- boxes in CSS -->
+    <div>boxxxx</div>
+    <div id="boxid">boxxxx</div>
+    <div class="boxclass">boxxxx</div>
+    <!-- .box -->
+
+    <!-- rgb colors -->
+    <p style="color: rgb(0, 0, 255)">Loremfnvfi</p>
+    <p style="color: rgb(0, 255, 0)">Loremfnvfi</p>
+    <p style="color: rgb(255, 0, 0)">Loremfnvfi</p>
+
+    <!-- 
+        1. percentage units changes according to parent div
+        2. pixel uints
+        3. relative unit to font size 
+            a. em: relative to parent font size, x em = x * div size
+            b. rem: relative to root tag
+        4. relative unit to viewport
+    -->
+  </body>
+</html>
