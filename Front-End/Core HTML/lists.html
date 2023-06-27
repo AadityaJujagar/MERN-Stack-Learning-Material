@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- ordered list -->
+    <!-- unordered list -->
+    <!-- img tag, importing an image from local database-->
+  </head>
 
-<head>
-  <!-- ordered list -->
-  <!-- unordered list -->
-  <!-- img tag, importing an image from local database-->
-</head>
+  <style>
+    #rice {
+      text-decoration-color: blue;
+      /* id tag can be used anywhere inside an open tag*/
+      /* css uses this type of commenting method */
+    }
+  </style>
 
-<style>
-  #rice {
-    text-decoration-color: blue;
-    /* id tag can be used anywhere inside an open tag*/
-    /* css uses this type of commenting method */
-  }
-</style>
-
-<body>
-  <!-- ordered lists -->
-  <h1>Grossery list : Grains</h1>
-  <ol>
-    <li>wheat</li>
-    <li>Oats</li>
-    <li id="rice">Rice</li>
-    <ol> <!--here comes the nested list-->
-      <li>type 1 rice</li>
-      <li>type 2 rice</li>
-      <li>type 3 rice</li>
-      <li>type 4 rice</li>
+  <body>
+    <!-- ordered lists -->
+    <h1>Grossery list : Grains</h1>
+    <ol>
+      <li>wheat</li>
+      <li>Oats</li>
+      <li id="rice">Rice</li>
+      <ol>
+        <!--here comes the nested list-->
+        <li>type 1 rice</li>
+        <li>type 2 rice</li>
+        <li>type 3 rice</li>
+        <li>type 4 rice</li>
+      </ol>
+      <li>Jowar</li>
     </ol>
-    <li>Jowar</li>
-  </ol>
 
-  <!-- unordered list -->
-  <h1>Grossery list : Other products</h1>
-  <ul>
-    <li>oils</li>
-    <li>soaps</li>
-    <li>biscuits</li>
-    <ul> <!-- sublist for item 3-->
-      <li>type 1</li>
-      <li>type 2</li>
-      <li>type 3</li>
+    <!-- unordered list -->
+    <h1>Grossery list : Other products</h1>
+    <ul>
+      <li>oils</li>
+      <li>soaps</li>
+      <li>biscuits</li>
+      <ul>
+        <!-- sublist for item 3-->
+        <li>type 1</li>
+        <li>type 2</li>
+        <li>type 3</li>
+      </ul>
+      <li>grains</li>
+      <li>other stuffs</li>
     </ul>
-    <li></li>
-    <li></li>
-  </ul>
 
-  <!-- height and width parameters in <img> -->
-  <img src="download.png" alt="image for testing width and height parameters" width="70" height="40">
-</body>
+    <!-- definition list -->
+    <dl>
+      <dt>term1</dt>
+      <dd>definition1</dd>
+      <dt>term2</dt>
+      <dd>definition2</dd>
+      <dt>term3</dt>
+      <dd>definition3</dd>
+    </dl>
 
-<!--note: try different CSS effects in .css file-->
+    <!-- height and width parameters in <img> -->
+    <img
+      src="./an image folder/download.png"
+      alt="image for testing width and height parameters"
+      width="70"
+      height="40"
+    />
+  </body>
 
+  <!--note: try different CSS effects in .css file-->
 </html>
