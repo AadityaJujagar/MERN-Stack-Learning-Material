@@ -48,7 +48,7 @@
   background-color: antiquewhite;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .container {
     grid-template-rows: 30px 1fr 1fr 30px;
     grid-template-columns: 1fr;

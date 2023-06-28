@@ -41,7 +41,7 @@
 }
 
 /* here at end */
-@media (max-width: 400px) {
+@media (max-width: 320px) {
   .container {
     grid-template-rows: 30px 1fr 1fr 30px;
     grid-template-columns: 1fr;

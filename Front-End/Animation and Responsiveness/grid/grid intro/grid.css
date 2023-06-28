@@ -14,6 +14,7 @@
 
   grid-template-columns: 1fr 1fr 1fr 1fr; /* flexible grid */
   grid-template-rows: 90px 90px 90px 90px;
+  
   /* gtc/gtr: 100px 100px 100px */
   /* gtc/gtr: repeat(3, 1fr) */
   /* gtc/gtr: 100px repeat(3, 1fr) */
@@ -24,7 +25,7 @@
 }
 
 .box {
-  background-color: aquamarine;
+  background-color: rgb(59, 160, 127);
   border: 2px solid black;
   height: 80px;
   /* width: 80px; */
@@ -33,15 +34,15 @@
 .box1 {
   height: 80px;
   border: 2px solid black;
-  background-color: aquamarine;
+  background-color: rgb(127, 255, 138);
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
 .box4 {
-  /* height: 80px; */
+  height: 190px;
   border: 2px solid black;
-  background-color: aquamarine;
+  background-color: rgb(127, 165, 255);
   grid-row-start: 2;
   grid-row-end: 4;
 }

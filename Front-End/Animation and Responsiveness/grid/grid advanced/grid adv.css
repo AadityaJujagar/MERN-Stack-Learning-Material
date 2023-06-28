@@ -34,9 +34,9 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 15px;
   grid-template-areas:
-    "c1 c1 c2"
-    "c3 c4 c2"
-    "c3 c5 c5";
+    "c1 c2 c2"
+    "c1 c4 c5"
+    "c1 c3 c5";
 }
 
 #box2 {
