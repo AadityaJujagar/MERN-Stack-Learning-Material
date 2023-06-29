@@ -6,7 +6,7 @@ console.log(a - b);
 console.log(a * b);
 console.log(a / b);
 console.log(a % b);
-console.log(a ** b);
+console.log(a ** b, "\n");
 
 // assignment operator
 let x = 7;
@@ -23,7 +23,7 @@ let f = 4;
 console.log(c++);
 console.log(++d);
 console.log(e--);
-console.log(--f);
+console.log(--f, "\n");
 
 // comparison operators
 console.log(5 > 3);
@@ -34,13 +34,13 @@ let v1 = 1;
 let v2 = "1";
 console.log(v1 == v2); // loose equality
 console.log(v1 === v2); // strict equality
-console.log(3 != 487); // negation
+console.log(3 != 487, "\n"); // negation
 
 // ternary operators
 let age = 21;
 // result = 'if this' (?)'do this' else(:)'do this'
 let stat = age > 18 ? "can vote" : "cant vote";
-console.log(stat);
+console.log(stat, "\n");
 
 // logical operators
 if (!0) {
@@ -50,27 +50,27 @@ if (1 && 0 == 0) {
   console.log("1 && 0 == 0");
 }
 if (1 || 0) {
-  console.log("1 || 0 == 1");
+  console.log("1 || 0 == 1\n");
 }
 
 // operating with non-binaries, opposite of cpp
 // consider f as 0 and t as 1 // js // cpp
 
-// console.log(false || true); // true // 1
-// console.log(false && true); // false // 0
+console.log(false || true); // true // 1
+console.log(false && true, "\n"); // false // 0
 
 // falsey values: undef, null, NaN, 0, false, ''
-// truthy values: vals other than truthy
+// truthy values: true, vals other than falsey
 
 console.log(true || "bvifvn"); // true // 1
 console.log(false || "bvifvn"); // "bvifvn" // 1
 console.log(false || "fvjk" || "s"); // "fvjk" // 1
-console.log(true || "fvjk" || "s"); // true // 1
+console.log(true || "fvjk" || "s", "\n"); // true // 1
 
 console.log(true && "bvifvn"); // "bvifvn" // 1
 console.log(false && "bvifvn"); // false // 0
 console.log(false && "fvjk" && "s"); // false // 0
-console.log(true && "fvjk" && 2); // 2 // 1
+console.log(true && "fvjk" && 2, "\n"); // 2 // 1
 
 // bitwise operators, use of truth tables
 console.log(3 | 5); // OR operator

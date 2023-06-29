@@ -21,7 +21,7 @@ let person = {
 
   //setter code
   set printPerson(val) {
-    if (typeof val != string) {
+    if (typeof val == String) {
       throw new Error("Non-string value error appeared from console port");
     }
     let parts = val.split(" ");

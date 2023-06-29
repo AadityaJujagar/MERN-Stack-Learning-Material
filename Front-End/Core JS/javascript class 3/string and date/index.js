@@ -7,7 +7,7 @@ console.log(Math.abs(-23), Math.abs(23));
 // etc..
 
 // string to object conversion
-let lN = "Jujagar";
+let lN = "JUJAGAR";
 let fN = new String("Aaditya");
 console.log(typeof lN);
 console.log(typeof fN);
@@ -16,11 +16,13 @@ console.log(typeof fN);
 console.log(fN.includes("adi"));
 console.log(lN.startsWith("J"));
 console.log(fN.endsWith("a"));
+console.log(lN.indexOf("JA"));
 console.log(lN.indexOf("ja"));
 console.log(fN.toUpperCase());
 console.log(lN.toLowerCase());
 
 let sentence1 = "    Aaditya Vijaykumar Jujagar     ";
+console.log(sentence1);
 console.log(sentence1.trim());
 
 let sentence2 = "I am a web dev";

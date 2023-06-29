@@ -13,7 +13,7 @@ if (1) {
   console.log(a);
   console.log(b);
 }
-// let is changable in/out of code block
+// let retains its original value, works in particular code blocks
 console.log(a);
 console.log(b);
 

@@ -30,7 +30,7 @@ let allTypes = [
   { num: 4, obj: { x: 1, y: 2 } },
 ];
 console.log(allTypes);
-console.log(allTypes.includes({ num: 1, int: 4 }));
+console.log(allTypes.includes({ num: 1, int: 4, str: "string" }));
 
 // callback function js
 let theType1 = allTypes.find(function (theType1) {

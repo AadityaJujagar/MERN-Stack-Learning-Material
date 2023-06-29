@@ -30,7 +30,7 @@ const toBeJoined = array1.join("_");
 console.log(toBeJoined);
 
 let joinedAlready = "this string has to be splitted";
-let splittedNow = joinedAlready.split(" ");
+let splittedNow = joinedAlready.split("t");
 console.log(splittedNow);
 
 // sorting an array

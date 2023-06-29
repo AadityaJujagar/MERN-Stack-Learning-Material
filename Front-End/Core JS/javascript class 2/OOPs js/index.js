@@ -16,13 +16,14 @@ console.log(sq.meth());
 
 // object creation using: 1) factory function method
 function createRect() {
-  return (rectangle = {
+  let rectangle = {
     width: 10,
     height: 20,
     drawRect: function () {
       console.log("drawing rectangle");
     },
-  });
+  };
+  return rectangle;
 }
 let callFunc = createRect(); // storing output of function
 console.log(callFunc.width); // calling a func and object
@@ -30,14 +31,13 @@ console.log(callFunc.drawRect()); // calling a func and method
 
 // custom input in an object via arguments
 function objFuncOut(w, h) {
-  let obj = {
+  return (obj = {
     wid: w,
     hei: h,
     objFuncIn() {
       console.log("objFuncIn called");
     },
-  };
-  return obj;
+  });
 }
 let callObjFuncOut = objFuncOut("width input", "height input");
 console.log(callObjFuncOut.wid);
