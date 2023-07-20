@@ -11,12 +11,14 @@
       class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#344151] gap-10"
     >
       <div class="text-[#0398d4]">Increment and Decrement</div>
-      <div class="bg-white flex text-[25px] text-[344151] rounded-sm">
-        <button class="border-r-2 border-[#bfbfbf]">
+      <div
+        class="bg-white flex text-[25px] text-[#344151] rounded-sm gap-12 p-4 px-8"
+      >
+        <button onclick="dec()" class="border-r-2 border-[#bfbfbf] pr-5">
           <i class="fa-solid fa-minus"></i>
         </button>
-        <div>0</div>
-        <button class="border-l-2 border-[#bfbfbf]">
+        <div id="count" class="font-bold">0</div>
+        <button onclick="inc()" class="border-l-2 border-[#bfbfbf] pl-5">
           <i class="fa-solid fa-plus"></i>
         </button>
       </div>
@@ -25,5 +27,6 @@
       src="https://kit.fontawesome.com/58a810656e.js"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
