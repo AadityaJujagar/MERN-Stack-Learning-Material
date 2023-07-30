@@ -31,7 +31,7 @@ let myPromise2 = new Promise(function (resolve, reject) {
   }, 9000);
   reject(new Error("error spotted at promise 2"));
 });
-myPromise1.catch((error) => {
+myPromise2.catch((error) => {
   console.log(error);
 });
 
@@ -49,7 +49,7 @@ let myPromise3 = new Promise(function (resolve, reject) {
 });
 myPromise3.then((val) => {
   console.log(val);
-  (error) => {
+  (err) => {
     // can be used in then() also
     console.log(err);
   };
