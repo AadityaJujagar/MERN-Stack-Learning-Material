@@ -7,6 +7,30 @@ async function utilities() {
 }
 console.log(utilities());
 
+// fetch api and fetch info in it, show on ui
+let city = "Solapur";
+let API_KEY = "688c5fb47c4dab7e6ad3ae470839fea0";
+
+function renderWeatherReport(fetchedData) {
+  const newPara = document.createElement("p");
+  newPara.textContent = `${fetchedData?.main?.temp.toFixed(2)}°C`;
+  document.body.appendChild(newPara);
+}
+
+async function forecastWeather() {
+  try {
+    const fetchWeather = await fetch(
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
+    );
+    const fetchedData = await fetchWeather.json();
+
+    console.log(fetchedData);
+    renderWeatherReport(fetchedData);
+  } catch (e) {
+    console.log(e);
+  }
+}
+
 // options for post call
 let options1 = {
   method: "POST",
