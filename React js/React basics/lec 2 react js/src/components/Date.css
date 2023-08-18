@@ -1,0 +1,21 @@
+.Date {
+  height: 90%;
+  width: 120px;
+  margin: 10px;
+  background-color: red;
+  color: antiquewhite;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Date-month {
+  font-weight: bold;
+}
+
+.Date-day {
+  font-weight: bold;
+  font-size: larger;
+}

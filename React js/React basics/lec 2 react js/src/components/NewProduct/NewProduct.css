@@ -1,0 +1,15 @@
+.newProductTitle,
+.newProductDate {
+  font-size: 18px;
+  font-weight: bold;
+  color: blueviolet;
+  padding: 10px;
+}
+
+.newProductButton {
+  padding: 10px;
+  margin: 20px auto;
+  border: 2px solid gray;
+  width: 125px;
+  text-align: center;
+}

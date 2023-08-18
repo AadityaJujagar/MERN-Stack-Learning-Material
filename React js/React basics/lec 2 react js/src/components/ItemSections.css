@@ -1,0 +1,31 @@
+.Section {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionChild {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  height: 140px;
+  width: 100%;
+}
+
+.sectionTitle {
+  margin-right: 30px;
+  font-size: larger;
+  color: rgb(66, 64, 64);
+  font-weight: bold;
+}
+
+.button {
+  margin-right: 10px;
+  padding: 10px;
+  border: 2px solid gray;
+  background-color: blanchedalmond;
+}
