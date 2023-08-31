@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 function BlogCard({ post }) {
   return (
-    <div>
-      <NavLink to={`/blog/${post.category}`}>
+    <div className="mt-[50px]">
+      <NavLink to={`/blog/${post.id}`}>
         <span>{post.title}</span>
       </NavLink>
       <p>

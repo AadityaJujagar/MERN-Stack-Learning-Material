@@ -9,21 +9,17 @@ function Blogs() {
   console.log(posts);
 
   return (
-    <div className="gap-y-7 mx-auto max-w-[650px] py-2 pb-2 flex flex-col ">
+    <div className="flex flex-col gap-y-10 my-4">
       {loader ? (
-        <div className="mx-auto">
+        <div className="min-h-[80vh] w-full flex justify-center items-center">
           <Loader />
         </div>
-      ) : (
-        <div>
-          {posts.length === 0 ? (
-            <div>
-              <p>No Posts Found</p>
-            </div>
-          ) : (
-            posts.map((post) => <BlogCard key={post.id} post={post} />)
-          )}
+      ) : posts.length === 0 ? (
+        <div className="min-h-[80vh] w-full flex justify-center items-center">
+          <p className="text-center font-bold text-3xl">No Posts Found</p>
         </div>
+      ) : (
+        posts.map((post) => <BlogCard key={post.id} post={post} />)
       )}
     </div>
   );
