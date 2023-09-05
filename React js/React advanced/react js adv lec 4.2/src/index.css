@@ -13,3 +13,30 @@ body {
   min-height: 100vh;
   background-color: #fff;
 }
+
+.loader {
+  width: 13.4px;
+  height: 13.4px;
+  background: #474bff;
+  color: #474bff;
+  border-radius: 50%;
+  box-shadow: 22.4px 0, -22.4px 0;
+  animation: dots-u8fzftmd 1s infinite linear alternate;
+}
+
+@keyframes dots-u8fzftmd {
+  0% {
+    box-shadow: 22.4px 0, -22.4px 0;
+    background: ;
+  }
+
+  33% {
+    box-shadow: 22.4px 0, -22.4px 0 rgba(71, 75, 255, 0.13);
+    background: rgba(71, 75, 255, 0.13);
+  }
+
+  66% {
+    box-shadow: 22.4px 0 rgba(71, 75, 255, 0.13), -22.4px 0;
+    background: rgba(71, 75, 255, 0.13);
+  }
+}
